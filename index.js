@@ -5,7 +5,7 @@ const bodyParser =require('body-parser');
 const mongoose = require('mongoose');
 const User = require('./models/Users');
 
-mongoose.connect('mongodb://localhost:27017/usersDB');
+mongoose.connect("mongodb://hello-express-user:secret@localhost:27017/hello-express-db");
 
 const app = express();
 
@@ -30,6 +30,7 @@ app.get("/login", (req, res) => {
 app.post("/register", (req, res) => {
     const email = req.body.email;
     const password = req.body.password;
+    
 
     const newUser = new User({
         email: email,

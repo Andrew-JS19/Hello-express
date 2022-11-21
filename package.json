@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon index"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +13,13 @@
     "express": "^4.18.2",
     "mongoose": "^6.7.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew-JS19/Hello-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Andrew-JS19/Hello-express/issues"
+  },
+  "homepage": "https://github.com/Andrew-JS19/Hello-express#readme",
   "description": ""
 }
